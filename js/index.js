@@ -166,17 +166,17 @@ class Confirm extends ModalWindow {
 }
 
 function alert() {
-  const alertWindow = new Alert({ w: 200, h: 200 }, { top: 200, left: 580 }, 'Alert', 'This is an alert!');
+  const alertWindow = new Alert({ w: 200, h: 200 }, { top: 200, right: 730 }, 'Alert', 'This is an alert!');
   alertWindow.create();
 }
 
 function prompt() {
-  const promptWindow = new Prompt({ w: 200, h: 200 }, { top: 200, left: 580 }, 'Prompt', 'Please enter your name:');
+  const promptWindow = new Prompt({ w: 200, h: 200 }, { top: 200, right: 730 }, 'Prompt', 'Please enter your name:');
   promptWindow.create();
 }
 
 function confirm() {
-  const confirmWindow = new Confirm({ w: 200, h: 200 }, { top: 200, left: 580 }, 'Confirm', 'Press a button!');
+  const confirmWindow = new Confirm({ w: 200, h: 200 }, { top: 200, right: 730 }, 'Confirm', 'Press a button!');
   confirmWindow.create();
 }
 

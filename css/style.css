@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+input {
+  margin: 0 0 15px 12px;
+}
+
+button {
+  margin-left: 12px;
+  width: 80px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.box-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  font-size: 25px;
+}
+
+.title {
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 20px;
+}
